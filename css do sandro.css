@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f7fb;
+  color: #1f2937;
+  line-height: 1.6;
+}
+
+header {
+  background: #111827;
+  color: #ffffff;
+  padding: 24px 8%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+header h1 {
+  font-size: 26px;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  margin-left: 18px;
+  font-weight: bold;
+}
+
+.inicio {
+  min-height: 72vh;
+  padding: 80px 8%;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(120deg, #e0f2fe, #ffffff);
+}
+
+.inicio-conteudo {
+  max-width: 680px;
+}
+
+.inicio h2 {
+  font-size: clamp(36px, 6vw, 64px);
+  line-height: 1.1;
+  margin-bottom: 20px;
+  color: #0f172a;
+}
+
+.inicio p {
+  font-size: 20px;
+  margin-bottom: 30px;
+  color: #475569;
+}
+
+.botao {
+  display: inline-block;
+  background: #2563eb;
+  color: #ffffff;
+  padding: 14px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.sobre {
+  padding: 70px 8%;
+  background: #ffffff;
+}
+
+.sobre h2,
+.servicos h2,
+.contato h2 {
+  font-size: 34px;
+  margin-bottom: 16px;
+  color: #111827;
+}
+
+.sobre p {
+  max-width: 850px;
+  color: #4b5563;
+  font-size: 18px;
+}
+
+.servicos {
+  padding: 70px 8%;
+  background: #f4f7fb;
+}
+
+.servicos-intro {
+  max-width: 760px;
+  margin-bottom: 32px;
+  color: #4b5563;
+  font-size: 18px;
+}
